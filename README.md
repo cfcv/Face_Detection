@@ -9,4 +9,11 @@ Otherwise, you have to link the opencv .dll or .so to the project(using visual s
 This projet test the deep learning based face detector incorporated by opencv since the 3.0 version, using the dnn module. This model overcomes all the drawbacks of the Haar cascade based face detector used in the previous versions, it detect faces in many diferent poses(up, down, left, right...) with a pretty good accuracy, in various scales and even with considerable oclusion. Futhermore, it runs also in real-time CPU.
 
 ## Results
+**Some results:**
+
+![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/result_up.png) ![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/result_down.png)
 ![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/result_right.png) ![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/result_left.png)
+
+**With occlusion:**
+
+![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/oclusion.png) ![alt text](https://github.com/cfcv/Face_Detection/blob/master/result_photos/oclusion_2.png)
