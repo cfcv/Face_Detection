@@ -1,5 +1,5 @@
 # Face_Detection
-##Requirements
+## Requirements
 To run this code you must have installed opencv 3.0 version or above and also the opencv_contrib. To execute the code if you are in linux you can just run the command bellow:
 * `g++ -std=c++11 faceDetection.cpp ``pkg-config --libs --cflags opencv`` -o faceDetection`
 
